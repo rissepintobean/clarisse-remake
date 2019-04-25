@@ -40,7 +40,8 @@ body {
   font-size: 3em;
   line-height: 1.25em;
   color: #2d1f10;
-  margin-left: -4%;
+  /*margin-left: -4%;*/
+  padding-right: 50px;
 }
 
 
@@ -51,6 +52,10 @@ body {
 	width:100%;
 	margin-right:auto;
 	margin-left:auto;
+}
+
+.margined {
+  margin-left: 152px;
 }
 
 
@@ -224,7 +229,7 @@ h4 {
 }
 
 
-/*Media Query*/
+/*Media Queries*/
 
 @media(max-width:576px) {
     #headshot {
@@ -236,15 +241,24 @@ h4 {
       margin-top: 7%;
     }
 
-    #quote {
+/*    #quote {
       margin: 40px;
-    }
+    }*/
 }
 
 @media(max-width: 670px) {
     #bio blockquote {
       position: unset;
     }
+    #quote {
+      margin: 40px;
+    }
+
+
+    .margined {
+      margin: auto;
+    }
+
 
 }
 
@@ -258,16 +272,38 @@ h4 {
 	.container {
 		max-width:720px
 	}
+    #quote {
+/*    font-size: 2.4em;*/
+/*    padding-right: 20px;*/
+/*    padding-left: 30px;*/
+  }
+
 }
 
 @media (min-width:992px) {
 	.container { 
 		max-width:960px
 	}
+/*  #quote {
+    font-size: 2.6em;
+    padding-right: 50px;
+    padding-left: 30px;
+  }*/
+}
+
+@media only screen and (max-width: 872px) and (min-width: 768px)  {
+  #quote {
+    padding-right: 130px;
+  }
 }
 
 @media (min-width:1200px) {
 	.container {
 		max-width:1140px
 	 }
+/*     #quote {
+    font-size: 3em;
+    padding-right: 50px;
+    padding-left: 50px;
+  }*/
 }
