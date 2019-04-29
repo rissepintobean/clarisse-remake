@@ -97,7 +97,9 @@ ul#navi li.contact a {
 
 /*splash*/
 
-
+#splash {
+    max-height: 95vh;
+}
 
 .bq blockquote {
     font-family: roc-grotesk-wide, sans-serif;
@@ -368,9 +370,9 @@ h4 {
     width: 70%;
 }
 
-
-
-
+#content {
+    margin-bottom: 80px;
+}
 
 
 
