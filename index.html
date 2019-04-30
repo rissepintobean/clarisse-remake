@@ -19,7 +19,7 @@
     <nav>
 		<ul id="navi">
             <li class="home"><a class="active" href="index.html#splash">C<span class="ital">larisse</span> Pinto</a></li>
-			<li class="work"><a href="#grid">Work</a></li>
+			<li class="work"><a href="#grid">W<span id="ork">ork</span></a></li>
             <li class="about"><a href="about.html">About</a></li>
             <li class="contact"><span id="te">T</span> <span id="cel">832.922.7757</span> <br>
             <span id="te">E</span><a href="mailto:hi@clarissepin.to"> hi@clarissepin.to</a></li>
@@ -47,11 +47,17 @@
             <p> print / book Design</p>
             <a href="daysforgirls.html"><img src="dfg_annualreport/dfg_text1.jpg" style="width:100%"></a>
         </div>
+        <div>
+            <h4>Reify, A Design Shop</h4>
+            <p> branding / identity / logo / systems</p>
+            <a href="reify.html"><img src="reify/reify_cover.jpg" style="width:100%"></a>
+        </div>
          <div>
             <h4>Jabberwock Visual Poem</h4>
             <p> print / letterpress / creative writing / collaboration</p>
             <a href="poetryposter.html"><img src="poetryposter/jabberwock.png" style="width:100%"></a>
         </div>
+        
 
     </div>
         
@@ -62,22 +68,32 @@
             <a href="thirst.html"><img src="thirst/thirst_poster.png" style="width:100%"></a>
         </div>
         <div>
-            <h4>Design Icon Website</h4>
-            <p>web design / html / css</p>
-            <a href="iconsite.html"><img src="iconsite/tk_indexstill.png" style="width:100%"></a>
-        </div>
-    </div>
-        
-    <div class="column">
-        <div>
             <h4>Travel Anthology</h4>
             <p>print / book design / creative writing</p>
             <a href="travelanthology.html"><img src="anthology/an_pg2_3.jpg" style="width:100%"></a>
         </div>
         <div>
+            <h4>Design Icon Website</h4>
+            <p>web design / html / css</p>
+            <a href="iconsite.html"><img src="iconsite/tk_indexstill.png" style="width:100%"></a>
+        </div>
+        <div>
+            <h4>Batuque: A Field Guide to Brazilian Percussion</h4>
+            <p> print / book Design</p>
+            <a href="batuque.html"><img src="batuque/batu_cover.jpg" style="width:100%"></a>
+        </div>
+    </div>
+        
+    <div class="column">
+        <div>
             <h4>Book Cover Series</h4>
             <p>print / handlettering / book cover design</p>
             <a href="covers.html"><img src="covers/bc_spine_web.jpg" style="width:100%"></a>
+        </div>
+        <div>
+            <h4>Earth Packaging Solutions</h4>
+            <p>branding / identity / packaging / logo / systems</p>
+            <a href="earthps.html"><img src="eps/eps_cover.png" style="width:100%"></a>
         </div>
         <div>
             <h4>When to Wear: Closet Organizing Concept</h4>
@@ -106,7 +122,24 @@
     
     
     
-    
+ <script>
+
+	const initChangeWorkOnScroll = () => {
+
+		const ork = document.querySelector("#ork");
+		if (ork) {
+		  window.addEventListener('scroll', () => {
+		    if (window.scrollY >= window.innerHeight) {
+		      ork.classList.add("ital");
+		    } else {
+					ork.classList.remove("ital");
+		    }
+		  });
+		}
+	}
+
+	initChangeWorkOnScroll();
+</script>   
 
     
 </body>
