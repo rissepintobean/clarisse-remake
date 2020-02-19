@@ -15,7 +15,7 @@ body {
 }
 
 .dark {
-    background-color: #2d1f10;
+    background-color: #1a1917;
 }
 
 /*nav*/
@@ -51,7 +51,7 @@ ul#navi li.home a {
         color: #e2a225;
     }
 ul#navi li.home a:hover:not(.active) {
-        color: #2d1f10;
+        color: #1a1917;
     }
 
 ul#navi .work {
@@ -88,7 +88,7 @@ ul#navi li.contact a {
 }
 
 #cel {
-    color: #2d1f10;
+    color: #1a1917;
 }
 
 
@@ -102,11 +102,11 @@ ul#navi li.contact a {
     font-style: normal;
     font-size: 3em;
     line-height: 1.25em;
-    color: #2d1f10;
-    margin-top: 9%;
+    color: #1a1917;
+    margin-top: 15%;
     margin-left: 10%;
     margin-right: 20%;
-    margin-bottom: 23%;
+    margin-bottom: 25%;
 }
 
 
@@ -137,7 +137,7 @@ ul#navi li.contact a {
     font-style: normal;
     font-size: 1.25em;
     line-height: 1.7em;
-    color: #2d1f10;
+    color: #1a1917;
 }
 
 #bio blockquote {
@@ -156,8 +156,8 @@ ul#navi li.contact a {
     font-family: freight-micro-pro, serif;
     font-weight: 600;
     font-style: italic;
-    font-size: 1em;
-    position: absolute;
+    font-size: 0.9em;
+
     margin-top: 35%;
     
 }
@@ -172,7 +172,7 @@ ul#navi li.contact a {
 }
 
 .slash {
-    color: #2d1f10;
+    color: #1a1917;
 }
 
 
@@ -187,7 +187,7 @@ ul#navi li.contact a {
 /*grid*/
 
 .row {
-    background-color: #2d1f10;
+    background-color: #1a1917;
     padding-left: 8%;
     padding-right: 8%;
     display: flex;
@@ -259,7 +259,7 @@ h4 {
     font-family: roc-grotesk-wide, sans-serif;
     font-weight: 600;
     font-style: normal;
-    color: #2d1f10;
+    color: #1a1917;
     font-size: 1.2em;
     text-align: center;
     margin-top: 5%;
@@ -304,7 +304,7 @@ h4 {
     font-family: roc-grotesk-wide, sans-serif;
     font-weight: 200;
     font-style: normal;
-    color: #2d1f10;
+    color: #1a1917;
     font-size: 5em;
 }
 
@@ -318,7 +318,7 @@ h4 {
     font-family: roc-grotesk-wide, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #2d1f10;
+    color: #1a1917;
     font-size: .9em;
     line-height: 1.4em;
     text-align: left;
